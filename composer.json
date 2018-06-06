@@ -15,17 +15,17 @@
 	}
     ],
     "require": {
-        "aliyuncs/oss-sdk-php": "~2.0"
+        "tsanjoto/oss-sdk-php": "~2.0"
     },
     "autoload": {
         "psr-4": {
-            "Jacobcyl\\AliOSS\\": "src/"
+            "tsanjoto\\AliOSS\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jacobcyl\\AliOSS\\AliOssServiceProvider"
+                "tsanjoto\\AliOSS\\AliOssServiceProvider"
             ]
         }
     }
